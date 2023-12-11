@@ -88,9 +88,7 @@ while not found:
                                 for node in categoriesnode.children:
                                     dict[node.param] = [node.lat, node.lng]
                                     found = True
-                                    break
-                                if found:  # 如果找到了，立即退出所有循环
-                                    break
+                                    
                             else:
                                 print("No restaurant found. Please try again")
                     if not category_found and not found:
