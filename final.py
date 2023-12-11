@@ -112,7 +112,7 @@ print(dict)
 
 
 place_id = input("Please refer to this page (https://developers.google.com/maps/documentation/places/web-service/place-id?hl=en) to find and put in your place id: ")
-url2 = f"https://maps.googleapis.com/maps/api/geocode/json?place_idp={place_id}&key=AIzaSyBzTrJWeimUYu32ysF5_gwsbvm1Bwp5nko"
+url2 = f"https://maps.googleapis.com/maps/api/geocode/json?place_id={place_id}&key=AIzaSyBzTrJWeimUYu32ysF5_gwsbvm1Bwp5nko"
 response2 = requests.get(url2)
 ans = response2.json()
 
